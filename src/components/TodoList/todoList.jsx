@@ -1,6 +1,6 @@
 import React from "react";
 import Todo from "../Todo/todo";
-const TodoList = ({ todos, onDelete }) => {
+function TodoList({ todos, onDelete }) {
   return (
     <div>
       {todos.map((todo, index) => (
@@ -8,6 +8,6 @@ const TodoList = ({ todos, onDelete }) => {
       ))}
     </div>
   );
-};
+}
 
 export default TodoList;

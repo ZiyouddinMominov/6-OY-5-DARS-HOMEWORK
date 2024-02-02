@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./todo.module.css";
-const Todo = ({ todo, onDelete }) => {
+function Todo({ todo, onDelete }) {
   return (
     <>
       <div className={styles.wrapper}>
@@ -16,6 +16,6 @@ const Todo = ({ todo, onDelete }) => {
       </div>
     </>
   );
-};
+}
 
 export default Todo;
