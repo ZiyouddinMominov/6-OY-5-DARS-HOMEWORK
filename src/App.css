@@ -1,0 +1,44 @@
+* {
+  font-family: sans-serif;
+  cursor: default;
+}
+.container {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.TodoText {
+  margin-top: 30px;
+  padding: 20px 25px;
+  background-color: rgb(239, 239, 239);
+  border: 1px solid gray;
+}
+.inputWrapper {
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.mainInput {
+  width: 100%;
+  padding: 8px;
+  cursor: text;
+  outline: none;
+}
+.mainPlus {
+  background-color: rgb(0, 98, 255);
+  padding: 9.9px;
+  cursor: pointer;
+  border: none;
+  color: white;
+  transition: all 0.5s;
+}
+.mainPlus:hover {
+  opacity: 0.8;
+}
+.mainPlus:active {
+  transform: scale(0.9);
+  opacity: 0.6;
+}
